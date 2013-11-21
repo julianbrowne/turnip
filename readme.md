@@ -2,6 +2,7 @@
 ###Turnip
 
     **work in progress**
+    This is under development. Not working yet.
 
 Turnip, named after the mid 19th century mocking term for [plump pocket watches](http://richardlangworth.com/the-turnip-churchills-breguet-pocket-watch) based on the [verge escapement](http://en.wikipedia.org/wiki/Verge_escapement#Decline), is a demonstration of Lamport and Vectors clocks in action.
 

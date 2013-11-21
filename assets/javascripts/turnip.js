@@ -1,8 +1,8 @@
 
 $(function() { 
 
-    var messages = [];
-    var clocks = [];
+    var messages = [];      // a trivial "async bus"
+    var clocks = [];        // all the clocks (processes)
     var maxClocks = 3;
 
     for(var i=0; i<maxClocks; i++) { 
@@ -67,6 +67,10 @@ $(function() {
         $("#messages").append("<br/>");
 
     };
+
+    /**
+     *  TBC
+    **/
 
     function isBefore(messageA, messageB) { 
         before = true;
