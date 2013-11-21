@@ -19,12 +19,12 @@ var VClock = function(id, clocks, transport) {
 
     this.send = function(to) { 
         this.v[this.id]++;
-        var message = {
+        var message = { 
             to: to, 
             content: "hello", 
             from: this.id, 
-            clock: this.v,
-            delivered: false
+            clock: this.v.slice(0), // clone so as to leave historical copy
+            delivered: false 
         };
         transport.push(message);
     };
@@ -34,6 +34,7 @@ var VClock = function(id, clocks, transport) {
         for (var i=0; i<mesg.clock.length; i++)
             if (mesg.clock[i] > this.v[i])
                 this.v[i] = mesg.clock[i];
+        mesg.delivered = true;
     };
 
 };
