@@ -13,6 +13,8 @@ And of course it's an ideal excuse to make Black Adder jokes.
 
 Turnip uses javascript, [D3](https://github.com/mbostock/d3) for animation, and [JQuery](https://github.com/jquery/jquery). All included.
 
+![ screen-shot ](https://raw.githubusercontent.com/julianbrowne/turnip/master/assets/images/screen-shot.png)
+
 ## Running
 
 Just open up index.html in a browser
