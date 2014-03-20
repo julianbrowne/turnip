@@ -5,9 +5,9 @@
     <link rel="stylesheet" media="all" href="assets/stylesheets/turnip.css" />
     <script src="assets/javascripts/jquery-1.9.1.js"></script>
     <script src="assets/javascripts/d3.js"></script>
-    <script src="assets/javascripts/LClock.js"></script>
-    <script src="assets/javascripts/VClock.js"></script>
+    <script src="assets/javascripts/EventEmitter.js"></script>
     <script src="assets/javascripts/turnip.js"></script>
+    <script src="lib/clocks.js"></script>
 </head>
 <body>
     <h1>Turnip</h1>
@@ -17,5 +17,24 @@
     <h2>Messages</h2>
     <div id="messages">
     </div>
+    <h2>Ordered Events</h2>
+    <div id="events">
+    </div>
+    <script>
+
+        var u = new Universe(3);
+        var tag = new tags();
+
+        sendRandomMessages(20);
+
+        u.clocks[0].event('1', "buy ticket");
+        u.clocks[1].event('2', "buy ticket");
+        u.clocks[2].event('3', "buy ticket");
+
+        sendRandomMessages(20);
+
+        u.order();
+
+    </script>
 </body>
 </html>

@@ -2,3 +2,48 @@
 body {
     font-family: helvetica;
 }
+
+div.clock-face { 
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 0;
+    font-family: courier;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    transition: background 2s linear;
+    background: #F1E9C7;
+}
+
+span.clock-name { 
+    display: block;
+    height: 30px;
+    width: 50px;
+    margin: 5px auto;
+    line-height: 20px;
+}
+
+span.clock {     
+    display: block;
+    height: 30px;
+    width: 100%;
+    line-height: 20px;
+    margin: 5px auto;
+}
+
+span.mesg { 
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    font-family: courier;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    transition: background 2s linear;
+    background: #F1E9C7;
+}
