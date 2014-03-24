@@ -3,7 +3,23 @@
 
 Turnip, named after the mid 19th century mocking term for [plump pocket watches](http://richardlangworth.com/the-turnip-churchills-breguet-pocket-watch) based on the [verge escapement](http://en.wikipedia.org/wiki/Verge_escapement#Decline), is a demonstration of Vector Clocks in action.
 
-And of course it's an ideal excuse to make Black Adder jokes.
+![ screen-shot ](https://raw.githubusercontent.com/julianbrowne/turnip/master/assets/images/screen-shot.png)
+
+## Running
+
+Just open up index.html in a browser
+
+## Structure
+
+Turnip is made up of a number of modules: VectorClock.js (implements the basic functions of a vclock), Universe.js (holds all instantiated clocks and any 'universal' properties), UI.js (implements the UI drawing and message-passing functionality), require.js (for module management), EventEmitter.js (a node-like version of EventEmitter for the browser taken from [here](https://github.com/Wolfy87/EventEmitter))
+
+Counter is a modified version of [Countdown](http://codepen.io/averyvery/pen/IvDLB) a very cool flipping train station clock animation that is nearly all CSS.
+
+## TODO
+
+*   Add a Lamport clock demo
+*   Actually use D3 (currently doesn't use D3 or a real anim)
+*   Add button to restart message sending (currently requires refresh)
 
 > "Then what is so funny?"   
 >  
@@ -15,19 +31,3 @@ And of course it's an ideal excuse to make Black Adder jokes.
 >   
 > "I found it particularly ironic my lord, because I've got a thingy shaped like a turnip."
 >   
-
-Turnip uses javascript, [D3](https://github.com/mbostock/d3) for animation, and [JQuery](https://github.com/jquery/jquery). All included.
-
-![ screen-shot ](https://raw.githubusercontent.com/julianbrowne/turnip/master/assets/images/screen-shot.png)
-
-## Running
-
-Just open up index.html in a browser
-
-
-## TODO
-
-*   Add a lamport clock demo
-*   Actually use D3 (currently doesn't use D3 or JQuery)
-*   Add button to restart message sending (currently requires refresh)
-
