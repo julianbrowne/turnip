@@ -11,7 +11,7 @@ Just open up index.html in a browser
 
 ## Structure
 
-Turnip is made up of a number of modules:
+Turnip (lib/turnip) is made up of a number of modules:
 
 *   VectorClock.js (implements the basic functions of a vclock)  
 *   Universe.js (holds all instantiated clocks and any 'universal' properties)
@@ -19,7 +19,10 @@ Turnip is made up of a number of modules:
 *   require.js (for module management)
 *   EventEmitter.js (a node-like version of EventEmitter for the browser taken from [here](https://github.com/Wolfy87/EventEmitter))
 
-Counter is a modified version of [Countdown](http://codepen.io/averyvery/pen/IvDLB) a very cool flipping train station clock animation that is nearly all CSS.
+Counter (lib/counter) is a modified version of [Countdown](http://codepen.io/averyvery/pen/IvDLB) a very cool flipping train station clock animation that is nearly all CSS.
+
+*   counter.js (main code)
+*   underscore.js
 
 ## TODO
 
