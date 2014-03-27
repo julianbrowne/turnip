@@ -7,7 +7,7 @@ Turnip, named after the mid 19th century mocking term for [plump pocket watches]
 
 ## Running
 
-Just open up index.html in a browser
+Just open up index.html in a browser and refresh to restart the demo
 
 ## Structure
 
@@ -29,6 +29,8 @@ Counter (lib/counter) is a modified version of [Countdown](http://codepen.io/ave
 *   Add a Lamport clock demo
 *   Actually use D3 (currently doesn't use D3 or a real anim)
 *   Add button to restart message sending (currently requires refresh)
+
+## Black Adder
 
 > "Then what is so funny?"   
 >  
