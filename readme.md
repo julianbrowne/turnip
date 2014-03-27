@@ -3,7 +3,7 @@
 
 Turnip, named after the mid 19th century mocking term for [plump pocket watches](http://richardlangworth.com/the-turnip-churchills-breguet-pocket-watch) based on the [verge escapement](http://en.wikipedia.org/wiki/Verge_escapement#Decline), is a demonstration of Vector Clocks in action.
 
-![ screen-shot ](https://raw.githubusercontent.com/julianbrowne/turnip/master/assets/images/screen-shot.png)
+![ screen-shot ](https://raw.githubusercontent.com/julianbrowne/turnip/master/screen-shot.png)
 
 ## Running
 
