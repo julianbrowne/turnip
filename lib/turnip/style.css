@@ -6,7 +6,7 @@ body {
 div.clock-face { 
     display: inline-block;
     width: 200px;
-    height: 100px;
+    height: 150px;
     margin: 10px;
     padding: 0;
     font-family: courier;
@@ -26,7 +26,7 @@ span.clock-name {
     line-height: 20px;
 }
 
-span.clock {     
+span.clock-hands {     
     display: block;
     height: 30px;
     width: 100%;
@@ -36,7 +36,7 @@ span.clock {
 
 span.mesg { 
     display: inline-block;
-    width: 200px;
+    width: 250px;
     height: 30px;
     margin: 10px;
     font-family: courier;

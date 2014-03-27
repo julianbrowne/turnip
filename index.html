@@ -9,13 +9,16 @@
 <body>
     <h1>Turnip</h1>
     <h2>Vector Clocks</h2>
-    <div id="cmd">
-        <button>stop</button>
-    </div>    
     <div id="clocks"></div>
     <h2>Messages</h2>
     <div id="messages"></div>
     <h2>Ordered Events</h2>
     <div id="events"></div>
+    <script id="clock-template" type="text/template">
+     <span class="current top <%= fonts.curr %>"><%= numerals.count %></span>
+     <span class="next top <%= fonts.next %>"><%= numerals.next %></span>
+     <span class="current bottom <%= fonts.curr %>"><%= numerals.count %></span>
+     <span class="next bottom <%= fonts.next %>"><%= numerals.next %></span>
+    </script>
 </body>
 </html>
